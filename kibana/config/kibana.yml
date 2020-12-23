@@ -11,3 +11,9 @@ monitoring.ui.container.elasticsearch.enabled: true
 #
 elasticsearch.username: elastic
 elasticsearch.password: changeme
+
+xpack.fleet.agents.tlsCheckDisabled: true
+xpack.security.session.idleTimeout: "1h"
+xpack.security.session.lifespan: "30d"
+xpack.security.enabled: true
+xpack.encryptedSavedObjects.encryptionKey: "something_at_least_32_characterssdjkfhsjkdhfjkhsjkdhfjkshdf"
